@@ -1,12 +1,12 @@
 import React from 'react';
-import FriendListItem from './FriendListItem'; 
+import css from './FriendList.module.css'; 
 
 const FriendList = ({ friends }) => {
   return (
     <ul>
       {friends.map((friend) => (
         <li key={friend.id}>
-          <FriendListItem {...friend} />
+          <FriendList {...friend} />
         </li>
       ))}
     </ul>

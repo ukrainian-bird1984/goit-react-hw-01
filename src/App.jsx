@@ -1,7 +1,11 @@
-import React from 'react';
+import userData from "../userData.json"
+import friends from "../friends.json"
+import transactions from "../transactions.json"
+import profile from "../profile.json"
+
 
 // Profile
-import Profile from './components/Profile';
+import Profile from './components/Profile/Profile';
 const AppProfile = () => {
   const userData = {
     name: 'Jaques Gluke',
@@ -24,8 +28,8 @@ const AppProfile = () => {
 };
 
 // FriendsList
-import FriendList from './components/FriendList';
-import FriendListItem from './components/FriendListItem';
+import FriendList from './components/FriendList/FriendList';
+import FriendListItem from './components/FriendListItem/FriendListItem';
 import userData from "../userData.json";
 import friends from "../friends.json";
 const AppFriendsList = () => {
@@ -44,7 +48,7 @@ const AppFriendsList = () => {
 };
 
 // TransactionHistory
-import TransactionHistory from './components/TransactionHistory';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 import transactions from './transactions.json';
 const AppTransactionHistory = () => {
   return (

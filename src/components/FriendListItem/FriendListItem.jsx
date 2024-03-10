@@ -1,5 +1,5 @@
 import React from 'react';
-import './FriendListItem.css';
+import css from './FriendListItem.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   const statusText = isOnline ? 'Online' : 'Offline';
