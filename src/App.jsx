@@ -1,24 +1,9 @@
-import userData from "../userData.json"
-import friends from "../friends.json"
-import transactions from "../transactions.json"
-import profile from "../profile.json"
-
+import React from 'react';
 
 // Profile
 import Profile from './components/Profile/Profile';
+import userData from "../userData.json";
 const AppProfile = () => {
-  const userData = {
-    name: 'Jaques Gluke',
-    tag: 'gluke',
-    location: 'Ocho Rios, Jamaica',
-    image: 'https://cdn-icons-png.flaticon.com/512/1077/1077012.png',
-    stats: {
-      followers: 5603,
-      views: 4827,
-      likes: 1308,
-    },
-  };
-
   return (
     <div>
       <h1>User Profile</h1>
@@ -30,7 +15,6 @@ const AppProfile = () => {
 // FriendsList
 import FriendList from './components/FriendList/FriendList';
 import FriendListItem from './components/FriendListItem/FriendListItem';
-import userData from "../userData.json";
 import friends from "../friends.json";
 const AppFriendsList = () => {
   return (
