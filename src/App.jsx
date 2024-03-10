@@ -1,12 +1,12 @@
 import React from 'react';
-import { AppProfile, AppFriendList, AppFriendsList, AppTransactionHistory } from './App';
+import { AppProfile, AppFriend, AppFriendList, AppTransactionHistory } from './App';
 
 const App = () => {
   return (
     <div>
       <AppProfile />
       <AppFriendList />
-      <AppFriendsList />
+      <AppFriend />
       <AppTransactionHistory />
     </div>
   );
