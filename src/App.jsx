@@ -1,9 +1,8 @@
 import React from 'react';
 
 // Profile
-import userData from "../userData.json";
 import Profile from './components/Profile';
-const App = () => {
+const AppProfile = () => {
   const userData = {
     name: 'Jaques Gluke',
     tag: 'gluke',
@@ -25,15 +24,14 @@ const App = () => {
 };
 
 // FriendsList
+import FriendList from './components/FriendList';
+import FriendListItem from './components/FriendListItem';
 import userData from "../userData.json";
 import friends from "../friends.json";
-import Profile from './components/FriendList';
-import Profile from './components/FriendListItem';
-
-const App = () => {
+const AppFriendsList = () => {
   return (
     <>
-      <Profile
+      <FriendListItem
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
@@ -48,8 +46,7 @@ const App = () => {
 // TransactionHistory
 import TransactionHistory from './components/TransactionHistory';
 import transactions from './transactions.json';
-
-const App = () => {
+const AppTransactionHistory = () => {
   return (
     <>
       <TransactionHistory items={transactions} />
@@ -57,6 +54,4 @@ const App = () => {
   );
 };
 
-export default App;
-
-
+export { AppProfile, AppFriendsList, AppTransactionHistory };
