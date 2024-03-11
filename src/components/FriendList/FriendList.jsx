@@ -1,12 +1,12 @@
 import React from 'react';
-import css from './FriendList.module.css'; 
+import css from './FriendList.module.css';
 
 const FriendList = ({ friends }) => {
   return (
     <ul>
       {friends && friends.map((friend) => (
         <li key={friend.id}>
-          <FriendList {...friend} />
+          <FriendListItem {...friend} />
         </li>
       ))}
     </ul>
@@ -14,4 +14,3 @@ const FriendList = ({ friends }) => {
 };
 
 export default FriendList;
-
