@@ -4,7 +4,7 @@ import css from './FriendList.module.css';
 const FriendList = ({ friends }) => {
   return (
     <ul>
-      {friends && friends.map((friend) => (
+      {friends.map((friend) => (
         <li key={friend.id}>
           <FriendListItem {...friend} />
         </li>
