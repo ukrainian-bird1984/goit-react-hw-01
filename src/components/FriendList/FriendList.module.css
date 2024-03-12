@@ -1,36 +1,36 @@
-.friend-list-container {
+.container {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.friend-list {
+.list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.friend-list-item {
+.item {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
 }
 
-.friend-list-item img {
+.items {
     width: 100%;
     height: auto;
 }
 
-.friend-list-item-info {
+.info {
     padding: 10px;
 }
 
-.friend-list-item-info h3 {
+.infos {
     margin: 0 0 5px;
 }
 
-.friend-list-item-info p {
+.friends {
     margin: 0;
 }

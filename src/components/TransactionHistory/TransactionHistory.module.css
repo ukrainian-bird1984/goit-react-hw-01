@@ -1,16 +1,16 @@
-.transaction-history {
+.history {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-.transaction-history th,
-.transaction-history td {
+.historys,
+.transaction {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
 
-.transaction-history th {
+.item {
     background-color: #f2f2f2;
 }

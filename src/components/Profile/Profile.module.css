@@ -1,4 +1,4 @@
-.profile-container {
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,33 +8,33 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.profile-container img {
+.profile {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.profile-info {
+.info {
     text-align: center;
 }
 
-.profile-info p {
+.info {
     margin: 5px 0;
 }
 
-.stats-list {
+.list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.stats-list li {
+.li {
     display: flex;
     justify-content: space-between;
     margin: 5px 0;
 }
 
-.stats-list li span {
+.stats {
     font-weight: bold;
 }

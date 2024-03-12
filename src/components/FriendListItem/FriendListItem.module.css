@@ -1,4 +1,4 @@
-.friend-list-item {
+.list {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -8,19 +8,19 @@
     padding: 10px;
 }
 
-.friend-list-item img {
+.items {
     margin-right: 10px;
     border-radius: 50%;
 }
 
-.friend-list-item p {
+.item p {
     margin: 0;
 }
 
-.friend-online {
+.online {
     color: green;
 }
 
-.friend-offline {
+.offline {
     color: red;
 }
