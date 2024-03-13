@@ -6,9 +6,9 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
   const statusColor = isOnline ? 'green' : 'red';
 
   return (
-    <div className="friend-list-item">
+    <div>
       <img src={avatar} alt="Avatar" width="48" />
-      <p>{name}</p>
+      <p className={name.css}>{name}</p>
       <p style={{ color: statusColor }}>{statusText}</p>
     </div>
   );

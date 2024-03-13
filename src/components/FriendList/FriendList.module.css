@@ -1,36 +1,9 @@
-.container {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 .item {
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.items {
-    width: 100%;
-    height: auto;
-}
-
-.info {
+    border: 1px solid #ddd;
     padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.infos {
-    margin: 0 0 5px;
-}
-
-.friends {
-    margin: 0;
-}

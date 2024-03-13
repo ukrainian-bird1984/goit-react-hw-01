@@ -3,16 +3,16 @@ import css from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table className="transaction-history">
-      <thead>
+    <table className={css.history}>
+      <thead className={css.headerRow}>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={css.type}>Type</th>
+          <th className={css.amount}>Amount</th>
+          <th className={css.currency}>Currency</th>
         </tr>
       </thead>
 
-      <tbody>
+      <tbody className={css.dataRow}>
         {items.map((transaction) => (
           <tr key={transaction.id}>
             <td>{transaction.type}</td>

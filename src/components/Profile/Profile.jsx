@@ -9,13 +9,13 @@ const Profile = ({ name, tag, location, image, stats }) => {
           src={image}
           alt="User avatar"
         />
-        <p>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <p className={css.user}>{name}</p>
+        <p className={css.tag}>@{tag}</p>
+        <p className={css.location}>{location}</p>
       </div>
 
       <ul>
-        <li>
+        <li className={css.item}>
           <span>Followers</span>
           <span>{stats.followers}</span>
         </li>
